@@ -50,3 +50,169 @@ body{
     cursor: pointer;
     display: none;
 }
+.header-txt{
+    text-align: center;
+}
+.header-txt h1{
+    font-size: 85px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.header-txt p{
+    color: aliceblue;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-1:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.general{
+    padding: 50px 0;
+    text-align: center;
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.general-1{
+    background-image: url(1082092.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450;
+    padding: 170px 55px;
+}
+.general-2{
+    background-image: url(1082092.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450;
+    padding: 170px 55px;
+}
+.general-3{
+    background-image: url(1082092.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450;
+    padding: 170px 55px;
+}.general-4{
+    background-image: url(1082092.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450;
+    padding: 170px 55px;
+}
+.general-5{
+    background-image: url(1082092.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450;
+    padding: 170px 55px;
+}
+.general-6{
+    background-image: url(1082092.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450;
+    padding: 170px 55px;
+}
+h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: rgb(12, 11, 11);
+}
+.tex h3{
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.tex p{
+    color: aliceblue;
+    font-size: 16px;
+}
+.general-1{  
+    color: aliceblue;
+    font-size: 16px;
+}
+.general-2{
+    color: aliceblue;
+    font-size: 16px;
+}
+.general-3{
+    color: aliceblue;
+    font-size: 16px;
+}
+.general-4{
+    color: aliceblue;
+    font-size: 16px;
+}
+.general-5{
+    color: aliceblue;
+    font-size: 16px;
+}
+.general-6{
+    color: aliceblue;
+    font-size: 16px;
+}
+.info-1{
+    padding: 250px 0;
+    background-image: url(gTRq4tGl.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.info-content{
+    text-align: center;
+}
+.info-content h2, span{
+    color: aliceblue;
+}
+.info-cirle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.circle-txt{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+.circle-1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    padding-top: 35px;
+}
+.circle-1 h3{
+    color: aliceblue;
+    font-size: 16px;
+}
+.circle-txt p{
+    color: aliceblue;
+    margin-top: 25px;
+
+}
+
