@@ -6,13 +6,16 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+body{
+    background: #0c0c0c;
+}
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 25px 12.5%;
-    background: yellowgreen;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,6 +60,7 @@
     outline: none;
     font-size: 16px;
     color: #e4e4e4;
+    padding-left: 10px;
 }
 .search-bar input::placeholder{
     color: #e4e4e4;
@@ -65,7 +69,27 @@
     width: 40px;
     height: 100%;
     background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 .search-bar button i{
-    
+    font-size: 22px;
+    color: #e4e4e4;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    background: url(gTRq4tGl.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-top: 25px;
 }
