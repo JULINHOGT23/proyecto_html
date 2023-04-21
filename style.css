@@ -99,7 +99,7 @@ body{
     left: 0;
     width: 58%;
     height: 100%;
-    background: yellowgreen;
+    background: transparent;
     padding: 80px;
     color: #e4e4e4;
     display: flex;
@@ -111,6 +111,7 @@ body{
 }
 .text-sci h2{
     font-size: 40px;
+    line-height: 1;
 
 }
 .content h2 span{
@@ -119,6 +120,16 @@ body{
 .text-sci p{
     font-size: 16px;
     margin: 20px 0;
+    color: transparent
+}
+.social-iconos a i{
+    font-size: 22px;
+    color: #e4e4e4;
+    margin-right: 10px;
+    transition: .5s ease;
+}
+.social-iconos a:hover i{
+    transform: scale(1.2);
 }
 .container .logreg-box{
     position: absolute;
