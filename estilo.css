@@ -113,3 +113,8 @@ html{
     top: -100px;
     transform: translateX(-50%);
 }
+/* estilos generales */
+.titulo-seccion{
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+}
