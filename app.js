@@ -70,3 +70,7 @@ function efectoHabilidades(){
         },100);
     }
 }
+//detecto el scrolling del mouse para aplicar la animación de la barra
+window.onscroll = function(){
+    efectoHabilidades();
+}
